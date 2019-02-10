@@ -13,7 +13,10 @@
     - id of DOM element
     - true (if element is to fetched from cache) else false, [default: true].
     - selector, [default: document]
-    
+    Example:
+    ```sh
+    $getID('elementId', false);
+    ```
 ## $getC()
 
   Arguments:
@@ -22,6 +25,10 @@
     -  true (if element is to fetched from cache) else false, [default: true].
     -  'multiple' (if array of all elements having same class is required) else 'single', [default: 'single'].
     -  selector, [default: document]
+    Example:
+    ```sh
+    $getC('elementClassName', true, 'multiple');
+    ```
     
 ## $getQ() 
 
@@ -31,4 +38,8 @@
     -  true (if element is to fetched from cache) else false, [default: true].
     -  'multiple' (if an array of all elements having the same class is required) else 'single', [default: 'single'].
     -  selector, [default: document]
+    Example:
+    ```sh
+    $getID('query', true, 'multiple');
+    ```
     
