@@ -16,7 +16,7 @@
     
 Example:   
 ```sh
-$getID('elementId', false);
+$getID('elementId', false, $getID('container'));
 ```
     
 ## $getC()
@@ -27,10 +27,11 @@ $getID('elementId', false);
     -  true (if element is to fetched from cache) else false, [default: true].
     -  'multiple' (if array of all elements having same class is required) else 'single', [default: 'single'].
     -  selector, [default: document]
-    Example:
-    ```sh
-    $getC('elementClassName', true, 'multiple');
-    ```
+    
+Example:
+```sh
+$getC('elementClassName', true, 'multiple');
+```
     
 ## $getQ() 
 
@@ -40,8 +41,9 @@ $getID('elementId', false);
     -  true (if element is to fetched from cache) else false, [default: true].
     -  'multiple' (if an array of all elements having the same class is required) else 'single', [default: 'single'].
     -  selector, [default: document]
-    Example:
-    ```sh
-    $getID('query', true, 'multiple');
-    ```
+ 
+Example:
+```sh
+$getID('query', true, 'multiple');
+```
     
