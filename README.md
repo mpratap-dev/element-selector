@@ -15,7 +15,9 @@
     - selector, [default: document]
     Example:
     ```sh
+    
     $getID('elementId', false);
+    
     ```
 ## $getC()
 
