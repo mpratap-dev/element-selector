@@ -15,7 +15,7 @@
     - selector, [default: document]
     Example:
    
-    `$getID('elementId', false);`
+    <code>$getID('elementId', false);</code>
     
 ## $getC()
 
