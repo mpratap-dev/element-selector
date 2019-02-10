@@ -14,11 +14,9 @@
     - true (if element is to fetched from cache) else false, [default: true].
     - selector, [default: document]
     Example:
-    ```sh
+   
+    `$getID('elementId', false);`
     
-    $getID('elementId', false);
-    
-    ```
 ## $getC()
 
   Arguments:
