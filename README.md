@@ -13,8 +13,8 @@
     - id of DOM element
     - true (if element is to fetched from cache) else false, [default: true].
     - selector, [default: document]
-    Example:
-   
+    
+Example:   
 ```sh
 $getID('elementId', false);
 ```
